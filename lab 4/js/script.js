@@ -13,4 +13,3 @@ function CreateNewUser() {
 }
 let newUser = CreateNewUser();
 console.log(newUser.getLogin());
-alert(newUser.getLogin());
