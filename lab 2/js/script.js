@@ -6,5 +6,5 @@ for (let i=1;i<number;i++){
     }
 }
 if(answer.length==0){
-    alert('Sorry, no numbers')
-}else alert('Числа кратні 5: '+answer)
+    console.log('Sorry, no numbers')
+}else console.log('Числа кратні 5: '+answer)
