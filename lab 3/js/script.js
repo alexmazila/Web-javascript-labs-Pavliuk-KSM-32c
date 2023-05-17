@@ -1,21 +1,21 @@
 function math(a,b,func){
     if(func === '+'){
         let c=a+b;
-        alert(`Відповідь: ${c}`)
+        console.log(`Відповідь: ${c}`)
     }
     else if(func === '-'){
         let c=a-b;
-        alert(`Відповідь: ${c}`)
+        console.log(`Відповідь: ${c}`)
     }
     else if(func === '/'){
         let c=a/b;
-        alert(`Відповідь: ${c}`)
+        console.log(`Відповідь: ${c}`)
     }
     else if(func === '*'){
         let c=a*b;
-        alert(`Відповідь: ${c}`)
+        console.log(`Відповідь: ${c}`)
     } else{
-        alert('Помилка вводу дії')
+        console.log('Помилка вводу дії')
     }
 }
 let a = parseInt(prompt('Введіть перше число'));
